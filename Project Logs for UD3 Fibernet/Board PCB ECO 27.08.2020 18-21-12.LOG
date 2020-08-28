@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=C41 Old Footprint=0603 New Footprint=0402
+Added Pin To Net: NetName=NetJ3_3 Pin=J3-3
+Added Pin To Net: NetName=NetJ3_3 Pin=MCU?-9
+Added Pin To Net: NetName=NetJ3_3 Pin=R10-1
+Added Net: Name=NetJ3_3
+Added Pin To Net: NetName=NetJ3_4 Pin=J3-4
+Added Pin To Net: NetName=NetJ3_4 Pin=MCU?-7
+Added Pin To Net: NetName=NetJ3_4 Pin=R11-1
+Added Net: Name=NetJ3_4
+Added Member To Class: ClassName=Fibernet Member=Component J4 SD Card

@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetC30_1 Pin=IC1-52
+Removed Pin From Net: NetName=NetC29_1 Pin=IC1-53
+Removed Pin From Net: NetName=NetC27_1 Pin=IC1-54
+Removed Pin From Net: NetName=NetC28_1 Pin=IC1-55
+Added Pin To Net: NetName=NetIC1_52 Pin=IC1-52
+Added Net: Name=NetIC1_52
+Added Pin To Net: NetName=NetIC1_53 Pin=IC1-53
+Added Net: Name=NetIC1_53
+Added Pin To Net: NetName=NetIC1_54 Pin=IC1-54
+Added Net: Name=NetIC1_54
+Added Pin To Net: NetName=NetIC1_55 Pin=IC1-55
+Added Net: Name=NetIC1_55
+Added Member To Class: ClassName=Fibernet Member=Component J1 SFP

@@ -1,0 +1,6 @@
+Change Net Name : Old Net Name=NetC27_1 New Net Name=RX_N
+Change Net Name : Old Net Name=NetC28_1 New Net Name=RX_P
+Change Net Name : Old Net Name=NetC29_1 New Net Name=TX_P
+Change Net Name : Old Net Name=NetC30_1 New Net Name=TX_N
+Added Differential Pair: Name=RX
+Added Differential Pair: Name=TX
