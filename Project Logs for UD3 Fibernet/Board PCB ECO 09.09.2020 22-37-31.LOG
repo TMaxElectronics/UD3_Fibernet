@@ -1,0 +1,147 @@
+package tmax.rfReceiver.src;
+
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Timer;
+import java.util.TimerTask;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JScrollBar;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.SpringLayout;
+import javax.swing.SwingConstants;
+import javax.swing.JLabel;
+import javax.sound.midi.InvalidMidiDataException;
+import javax.sound.midi.MidiDevice;
+import javax.sound.midi.MidiMessage;
+import javax.sound.midi.MidiSystem;
+import javax.sound.midi.MidiUnavailableException;
+import javax.sound.midi.Receiver;
+import javax.sound.midi.ShortMessage;
+import javax.sound.midi.Transmitter;
+import javax.sound.midi.MidiDevice.Info;
+import javax.swing.JButton;
+
+public class LightSaber implements PipeClient {
+	private ClientTab viewPort = null;
+	private USBDevice usbDev = null;
+	private int currPipe = 0;
+	JPanel self = new JPanel();
+	JLabel xLabel = new JLabel("X: Y: Z:");
+	JLabel yLabel = new JLabel("X: Y: Z:");
+	JLabel zLabel = new JLabel("X: Y: Z:");
+	Timer dataSender = new Timer();
+	
+	double gX, gY, gZ;
+	double gX_offSet, gY_offSet, gZ_offSet;
+	Receiver midiDevice = null;
+	boolean on = false;
+	
+	public LightSaber(ClientTab vp, USBDevice ud, int p) {
+		self = vp.getPanel();
+		self.setLayout(null);
+
+		xLabel.setBounds(10, 252, 75, 25);
+		self.add(xLabel);
+		yLabel.setBounds(90, 252, 75, 25);
+		self.add(yLabel);
+		zLabel.setBounds(170, 252, 75, 25);
+		self.add(zLabel);
+		
+		JPanel panel = new JPanel();
+		panel.setBounds(10, 11, 408, 230);
+		self.add(panel);
+		
+		JButton btnNewButton = new JButton("Zero");
+		btnNewButton.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				gX_offSet = gX;
+				gY_offSet = gY;
+				gZ_offSet = gZ;
+				on = !on;
+				ShortMessage myMsg = new ShortMessage();
+				try {
+					myMsg.setMessage(on ? ShortMessage.NOTE_ON :ShortMessage.NOTE_OFF, 7, 40, 127);
+					midiDevice.send(myMsg, -1);
+					System.out.println(myMsg.toString());
+				} catch (InvalidMidiDataException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+			}
+		});
+		btnNewButton.setBounds(329, 252, 89, 25);
+		self.add(btnNewButton);
+		viewPort = vp;
+		usbDev = ud;
+		currPipe = p;
+		vp.setName("Lightsaber P#" + Integer.toString(p));
+		
+		SpringLayout sl_pipeClient1_viewport = new SpringLayout();
+		viewPort.getAppViewport().setLayout(sl_pipeClient1_viewport);
+		vp.parent.conMan.addDataHandler(currPipe, this, "Saber", 32);
+		
+		dataSender.scheduleAtFixedRate(new dataSendHandler(), 1000, 100);
+		
+		MidiDevice.Info[] infos = MidiSystem.getMidiDeviceInfo();
+
+	    for(Info devices : infos ){
+	        if(devices.getName().hashCode() == "Midi Stick".hashCode()) {
+	            MidiDevice device;
+				try {
+					device = MidiSystem.getMidiDevice(devices);
+					device.open();
+					midiDevice = device.getReceiver();
+					System.out.println("found device! " + devices.getDescription() + " " + devices.getVendor() + " " + devices.getVersion());
+				} catch (MidiUnavailableException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} 
+	        }
+	    }
+	}
+	
+	@Override
+	public void handleData(byte[] data) {
+		String raw = new String(data).substring(2, 34);
+
+		int x,y,z;
+		int lastIndex = 0, currIndex = raw.indexOf(';');
+		x = Integer.parseInt(raw.substring(lastIndex, currIndex));
+		lastIndex = currIndex+1;
+		currIndex = raw.indexOf(';', lastIndex);
+		y = Integer.parseInt(raw.substring(lastIndex, currIndex));
+		lastIndex = currIndex+1;
+		currIndex = raw.indexOf(';', lastIndex);
+		z = Integer.parseInt(raw.substring(lastIndex, currIndex));
+
+
+		gX = ((double) x * 0.004) * 0.05 + gX * 0.95;
+		gY = ((double) y * 0.004) * 0.05 + gY * 0.95;
+		gZ = ((double) z * 0.004) * 0.05 + gZ * 0.95;//String.format("X = %.3fG, Y = %.3fG, Z = %.3fG", gX - gX_offSet, gY - gY_offSet, gZ - gZ_offSet)
+		xLabel.setText(String.format("X = %.3fG", gX - gX_offSet));
+		yLabel.setText(String.format("Y = %.3fG", gY - gY_offSet));
+		zLabel.setText(String.format("Z = %.3fG", gZ - gZ_offSet));
+	}
+
+	@Override
+	public void close() {
+		viewPort.parent.conMan.removeDataHandler(currPipe, this);
+		System.out.println("closing default text view for pipe #" + currPipe);
+	}
+	
+	private class dataSendHandler extends TimerTask{
+
+		@Override
+		public void run() {
+			double length = Math.pow(Math.abs(gX - gX_offSet + gY - gY_offSet + gZ - gZ_offSet), 0.3333333333333);
+			System.out.println(length);
+		}
+		
+	}
+}
