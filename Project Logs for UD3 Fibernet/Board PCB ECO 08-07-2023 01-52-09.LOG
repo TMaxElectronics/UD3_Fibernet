@@ -1,0 +1,95 @@
+Added Member To Class: ClassName=Fibernet Member=Component C1 100nF
+Added Member To Class: ClassName=Fibernet Member=Component C2 100nF
+Added Member To Class: ClassName=Fibernet Member=Component C3 100nF
+Added Member To Class: ClassName=Fibernet Member=Component C4 10uF
+Added Member To Class: ClassName=Fibernet Member=Component C5 100nF
+Added Member To Class: ClassName=Fibernet Member=Component C6 100nF
+Added Member To Class: ClassName=Fibernet Member=Component C7 100nF
+Added Member To Class: ClassName=Fibernet Member=Component C8 1uF
+Added Member To Class: ClassName=Fibernet Member=Component C9 100nF
+Added Member To Class: ClassName=Fibernet Member=Component C10 1uF
+Added Member To Class: ClassName=Fibernet Member=Component C11 100nF
+Added Member To Class: ClassName=Fibernet Member=Component C12 22pF
+Added Member To Class: ClassName=Fibernet Member=Component C13 22pF
+Added Member To Class: ClassName=Fibernet Member=Component C14 10uF
+Added Member To Class: ClassName=Power Stuff Member=Component C15 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C16 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C17 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C18 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C19 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C20 1uF
+Added Member To Class: ClassName=Power Stuff Member=Component C21 1uF
+Added Member To Class: ClassName=Power Stuff Member=Component C22 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C23 1uF
+Added Member To Class: ClassName=Power Stuff Member=Component C24 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C25 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C26 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C27 470pF
+Added Member To Class: ClassName=Power Stuff Member=Component C28 1uF
+Added Member To Class: ClassName=Power Stuff Member=Component C29 1uF
+Added Member To Class: ClassName=Power Stuff Member=Component C30 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C31 1uF
+Added Member To Class: ClassName=Power Stuff Member=Component C32 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C33 100pF
+Added Member To Class: ClassName=Power Stuff Member=Component C34 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C35 10uF
+Added Member To Class: ClassName=Power Stuff Member=Component C36 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C37 10uF
+Added Member To Class: ClassName=Power Stuff Member=Component C38 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C39 10uF
+Added Member To Class: ClassName=Power Stuff Member=Component C40 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C41 10uF
+Added Member To Class: ClassName=Power Stuff Member=Component C42 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C43 10uF
+Added Member To Class: ClassName=Power Stuff Member=Component C44 10uF
+Added Member To Class: ClassName=Power Stuff Member=Component C45 100nF
+Added Member To Class: ClassName=Power Stuff Member=Component C46 100nF
+Added Member To Class: ClassName=Fibernet Member=Component D1 RGB LED Common anode
+Added Member To Class: ClassName=Fibernet Member=Component D2 RGB LED Common anode
+Added Member To Class: ClassName=Power Stuff Member=Component IC1 LAN9250
+Added Member To Class: ClassName=Fibernet Member=Component J1 SD Card
+Added Member To Class: ClassName=Fibernet Member=Component J2 SFP
+Added Member To Class: ClassName=Fibernet Member=Component J4 ICSP
+Added Member To Class: ClassName=Fibernet Member=Component Jp1 AKTY Red
+Added Member To Class: ClassName=Fibernet Member=Component Jp2 AKTY Blue
+Added Member To Class: ClassName=Fibernet Member=Component Jp3 AKTY Green
+Added Member To Class: ClassName=Power Stuff Member=Component L1 Ferrite Bead
+Added Member To Class: ClassName=Power Stuff Member=Component L2 Ferrite Bead
+Added Member To Class: ClassName=Power Stuff Member=Component L3 Ferrite Bead
+Added Member To Class: ClassName=Power Stuff Member=Component L4 Ferrite Bead
+Added Member To Class: ClassName=Power Stuff Member=Component L5 Ferrite Bead
+Added Member To Class: ClassName=Power Stuff Member=Component L6 1uH
+Added Member To Class: ClassName=Power Stuff Member=Component L7 1uH
+Added Member To Class: ClassName=Power Stuff Member=Component L8 6.8uH
+Added Member To Class: ClassName=Fibernet Member=Component MCU1 PIC32MX270F256B
+Added Member To Class: ClassName=Fibernet Member=Component R1 10k
+Added Member To Class: ClassName=Fibernet Member=Component R2 10k
+Added Member To Class: ClassName=Fibernet Member=Component R3 4.7k
+Added Member To Class: ClassName=Fibernet Member=Component R4 49.9
+Added Member To Class: ClassName=Fibernet Member=Component R5 49.9
+Added Member To Class: ClassName=Fibernet Member=Component R6 82
+Added Member To Class: ClassName=Fibernet Member=Component R7 82
+Added Member To Class: ClassName=Fibernet Member=Component R8 4.7k
+Added Member To Class: ClassName=Fibernet Member=Component R9 4.7k
+Added Member To Class: ClassName=Fibernet Member=Component R10 4.7k
+Added Member To Class: ClassName=Fibernet Member=Component R11 4.7k
+Added Member To Class: ClassName=Fibernet Member=Component R12 1k
+Added Member To Class: ClassName=Fibernet Member=Component R13 130
+Added Member To Class: ClassName=Fibernet Member=Component R14 130
+Added Member To Class: ClassName=Fibernet Member=Component R15 10k
+Added Member To Class: ClassName=Fibernet Member=Component R16 10k
+Added Member To Class: ClassName=Fibernet Member=Component R17 10k
+Added Member To Class: ClassName=Fibernet Member=Component R18 10k
+Added Member To Class: ClassName=Fibernet Member=Component R19 10k
+Added Member To Class: ClassName=Fibernet Member=Component R20 10k
+Added Member To Class: ClassName=Fibernet Member=Component R21 1k
+Added Member To Class: ClassName=Fibernet Member=Component R22 1k
+Added Member To Class: ClassName=Fibernet Member=Component R23 1k
+Added Member To Class: ClassName=Fibernet Member=Component R24 1k
+Added Member To Class: ClassName=Fibernet Member=Component R25 12.1k 1%
+Added Member To Class: ClassName=Fibernet Member=Component R26 1k
+Added Member To Class: ClassName=Power Stuff Member=Component R27 10k
+Added Member To Class: ClassName=Power Stuff Member=Component R28 10k
+Added Member To Class: ClassName=Power Stuff Member=Component Reg1 Buck regulator
+Added Member To Class: ClassName=Power Stuff Member=Component TP1 +3.3V
+Added Member To Class: ClassName=Fibernet Member=Component X1 25MHz
