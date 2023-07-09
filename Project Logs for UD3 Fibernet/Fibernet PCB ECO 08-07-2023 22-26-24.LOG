@@ -1,0 +1,28 @@
+Change Net Name : Old Net Name=NetD1_1 New Net Name=LED R
+Change Net Name : Old Net Name=NetD1_3 New Net Name=LED B
+Change Net Name : Old Net Name=NetD1_4 New Net Name=LED G
+Change Net Name : Old Net Name=NetD2_2 New Net Name=LED2
+Change Net Name : Old Net Name=NetIC1_9 New Net Name=LAN LOS
+Change Net Name : Old Net Name=NetIC1_11 New Net Name=LAN RST
+Change Net Name : Old Net Name=NetIC1_13 New Net Name=LAN MISO
+Change Net Name : Old Net Name=NetIC1_17 New Net Name=LAN MOSI
+Change Net Name : Old Net Name=NetIC1_19 New Net Name=LAN SCK
+Change Net Name : Old Net Name=NetIC1_44 New Net Name=SD CD / LAN IRQ
+Change Net Name : Old Net Name=NetIC1_50 New Net Name=LAN CS
+Change Net Name : Old Net Name=NetJ1_1 New Net Name=SD CS
+Change Net Name : Old Net Name=NetJ1_2 New Net Name=SD MOSI
+Change Net Name : Old Net Name=NetJ1_5 New Net Name=SD CLK
+Change Net Name : Old Net Name=NetJ1_7 New Net Name=SD MISO
+Change Net Name : Old Net Name=NetJ3_2 New Net Name=UART RX
+Change Net Name : Old Net Name=NetJ3_3 New Net Name=UART RX_EN
+Change Net Name : Old Net Name=NetJ3_4 New Net Name=UART TX_EN
+Change Net Name : Old Net Name=NetJ3_5 New Net Name=UART TX
+Change Net Name : Old Net Name=NetJ4_1 New Net Name=MCLR
+Change Net Name : Old Net Name=NetJ4_4 New Net Name=PGD
+Change Net Name : Old Net Name=NetJ4_5 New Net Name=PGC
+Change Net Name : Old Net Name=RX_N New Net Name=LAN_RX_N
+Change Net Name : Old Net Name=RX_P New Net Name=LAN_RX_P
+Change Net Name : Old Net Name=TX_N New Net Name=LAN_TX_N
+Change Net Name : Old Net Name=TX_P New Net Name=LAN_TX_P
+Added Differential Pair: Name=LAN_RX
+Added Differential Pair: Name=LAN_TX

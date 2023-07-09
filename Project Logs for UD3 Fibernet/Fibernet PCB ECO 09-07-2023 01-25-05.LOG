@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=+5V Pin=C11-2
+Removed Member From Class: ClassName=Fibernet Member=C11
+Added Component: Designator=TP1(TESTPOINT_THT)
+Added Pin To Net: NetName=+3.3V Pin=TP1-1
+Added Member To Class: ClassName=Power Stuff Member=Component TP1 +3.3V

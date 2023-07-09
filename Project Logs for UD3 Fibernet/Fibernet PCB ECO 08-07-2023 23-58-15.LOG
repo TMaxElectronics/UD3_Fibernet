@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=+3.3V SFP TX Pin=R3-2
+Removed Pin From Net: NetName=+3.3V SFP TX Pin=R8-2
+Removed Pin From Net: NetName=+3.3V SFP TX Pin=R9-2
+Removed Pin From Net: NetName=+3.3V SFP TX Pin=R10-2
+Removed Pin From Net: NetName=+3.3V SFP TX Pin=R11-2
+Added Pin To Net: NetName=+3.3V Pin=R3-2
+Added Pin To Net: NetName=+3.3V Pin=R8-2
+Added Pin To Net: NetName=+3.3V Pin=R9-2
+Added Pin To Net: NetName=+3.3V Pin=R10-2
+Added Pin To Net: NetName=+3.3V Pin=R11-2
+Added Member To Class: ClassName=Power Stuff Member=Component C28 1uF
