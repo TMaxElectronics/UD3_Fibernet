@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=C14 Old Footprint=0402 New Footprint=0603
+Change Component Footprint: Designator=C40 Old Footprint=0402 New Footprint=0603
+Change Component Footprint: Designator=C42 Old Footprint=0402 New Footprint=0603
+Change Component Comment: Designator=Jp2 Old Comment=AKTY Blue New Comment=Blue
+Change Component Comment: Designator=Jp3 Old Comment=AKTY Green New Comment=Green
+Change Component Comment: Designator=Jp1 Old Comment=AKTY Red New Comment=Red

@@ -1,0 +1,4 @@
+Added Component: Designator=TP1(TESTPOINT_THT)
+Added Pin To Net: NetName=+3.3V Pin=TP1-1
+Added Member To Class: ClassName=Power Stuff Member=Component C8 22uF
+Added Member To Class: ClassName=Power Stuff Member=Component TP1 +3.3V

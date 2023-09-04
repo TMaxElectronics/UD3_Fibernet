@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=+3.3V Pin=TP1-1
+Removed Member From Class: ClassName=Power Stuff Member=TP1
+Change Component Comment : Designator=C27 Old Comment=470pF New Comment=1uF

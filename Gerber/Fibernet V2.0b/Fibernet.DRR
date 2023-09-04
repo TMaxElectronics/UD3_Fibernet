@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Fibernet.PcbDoc   05/09/2023  00:34:36
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Fibernet.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             28        PTH        62.84mm (2.47inch)
+T2      0.3mm (12mil)                                             Round             85        PTH        343.99mm (13.54inch)
+T3      0.7mm (28mil)                                             Round             2         PTH        2.24mm (0.09inch)
+T4      0.85mm (33mil)                                            Round             12        PTH        71.30mm (2.81inch)
+T5      0.9mm (35mil)                                             Round             11        PTH        49.34mm (1.94inch)
+T6      0.95mm (37mil)                                            Round             2         PTH        6.80mm (0.27inch)
+T7      1.05mm (41mil)                                            Round             8         PTH        85.10mm (3.35inch)
+T8      1.55mm (61mil)                                            Round             2         PTH        9.60mm (0.38inch)
+T9      3.1mm (122mil)                                            Round             2         PTH        68.00mm (2.68inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              152
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetIC1_45 Pin=R17-2
+Added Component: Designator=TP1(TESTPOINT_THT)
+Added Pin To Net: NetName=LED2 Pin=R17-2
+Added Pin To Net: NetName=+3.3V Pin=TP1-1
+Added Member To Class: ClassName=Power Stuff Member=Component TP1 +3.3V

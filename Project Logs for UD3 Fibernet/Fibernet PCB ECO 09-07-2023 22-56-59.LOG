@@ -1,0 +1,12 @@
+Added Pin To Net: NetName=+3.3V Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=+3.3V Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C35-1
+Added Pin To Net: NetName=+3.3V Pin=C35-2
+Added Pin To Net: NetName=GND Pin=C43-1
+Added Pin To Net: NetName=+3.3V Pin=C43-2
+Added Member To Class: ClassName=Power Stuff Member=Component C7 22uF
+Added Member To Class: ClassName=Power Stuff Member=Component C8 22uF
+Added Member To Class: ClassName=Fibernet Member=Component C35 100nF
+Added Member To Class: ClassName=Fibernet Member=Component C43 1uF

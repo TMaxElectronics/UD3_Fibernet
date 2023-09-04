@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [UD3 Fibernet.PrjPCB]
+   Generated File[Bill of Materials-UD3 Fibernet.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 00:34:50 On 05/09/2023

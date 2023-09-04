@@ -1,0 +1,16 @@
+Change Component Comment : Designator=R28 Old Comment=10k New Comment=62k
+Change Component Comment : Designator=R27 Old Comment=10k New Comment=182k
+Change Component Comment : Designator=C4 Old Comment=10uF New Comment=1uF
+Change Component Comment : Designator=C14 Old Comment=10uF New Comment=22uF
+Change Component Comment : Designator=C35 Old Comment=10uF New Comment=22uF
+Change Component Comment : Designator=C43 Old Comment=10uF New Comment=22uF
+Change Component Comment : Designator=C44 Old Comment=10uF New Comment=100nF
+Change Component Comment : Designator=C45 Old Comment=100nF New Comment=22uF
+Change Component Comment : Designator=C46 Old Comment=100nF New Comment=22uF
+Change Component Designator: OldDesignator=C7 NewDesignator=C35
+Change Component Designator: OldDesignator=C8 NewDesignator=C43
+Change Component Designator: OldDesignator=C35 NewDesignator=C7
+Change Component Designator: OldDesignator=C43 NewDesignator=C8
+Added Component: Designator=TP1(TESTPOINT_THT)
+Added Pin To Net: NetName=+3.3V Pin=TP1-1
+Added Member To Class: ClassName=Power Stuff Member=Component TP1 +3.3V
